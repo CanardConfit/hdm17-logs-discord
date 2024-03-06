@@ -13,6 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "dev": "nodemon src/index.ts",
     "lint": "eslint src/**/*"
   },
   "devDependencies": {
@@ -28,6 +29,8 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@canardconfit/hdm17-logs-extractor": "^1.0.0"
+    "@vermaysha/discord-webhook": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "hdm17-logs-extractor": "^1.0.1"
   }
 }
